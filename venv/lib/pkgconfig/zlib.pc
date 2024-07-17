@@ -1,0 +1,13 @@
+prefix=/Users/vinoadmehraa/Repositories/Python_Programming/venv
+exec_prefix=/Users/vinoadmehraa/Repositories/Python_Programming/venv
+libdir=/Users/vinoadmehraa/Repositories/Python_Programming/venv/lib
+sharedlibdir=/Users/vinoadmehraa/Repositories/Python_Programming/venv/lib
+includedir=/Users/vinoadmehraa/Repositories/Python_Programming/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
